@@ -9,3 +9,5 @@
 
 	user1 = User.create(first_name: "Jean", email: "jean@yopmail.com")
 	user2 = User.create(first_name: "Pierre", email: "pierre@yopmail.com")
+
+	puts "Deux utilisateurs ont été créés"
