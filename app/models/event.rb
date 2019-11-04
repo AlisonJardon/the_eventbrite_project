@@ -12,11 +12,11 @@ class Event < ApplicationRecord
 	
 	validates :title,
 	presence: true,
-	length: {minimum: 5, maximum: 140, message: 'Le titre doit être compris entre 5 et 140 caractères'}
+	# length: { minimum: 5, maximum: 140, message: 'Le titre doit être compris entre 5 et 140 caractères' }
 	
 	validates :description,
 	presence: true
-	length: {minimum: 20, maximum: 1000, message: 'La description doit faire 20 caractères au minimum et 1000 au maximum'}
+	# length: { minimum: 20, maximum: 1000, message: 'La description doit faire 20 caractères au minimum et 1000 au maximum' }
 
 	validates :price,
 	presence: true
